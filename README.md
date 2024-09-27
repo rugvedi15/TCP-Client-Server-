@@ -1,5 +1,5 @@
 
-# Distributed File System
+# TCP Client Server Distributed File System
 
 ## Project Overview
 This project implements a **Distributed File System** using socket programming. It allows multiple clients to upload and retrieve files of different types (`.c`, `.pdf`, and `.txt`) by interacting with a centralized server (`Smain`). The file types are managed and stored on different servers (`Spdf` for `.pdf` files and `Stext` for `.txt` files), though this is abstracted away from the clients.
